@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  background: url('./g.jpg');
+  background-size: cover;
+  margin: auto;
+  width: 800px;
+  height: 700px;
+  grid-template-columns: repeat(3 , 1fr);
+  /* grid-gap:10px ; */
+}
+.mini1 {
+    background: transparent;
+    grid-column: 1 / span 2;
+    border: 10px solid white;
+}
+.mini2 {
+    grid-row: 2 / span 2;
+    /* background: chocolate; */
+    background: transparent;
+    border: 10px solid white;
+}
+.mini3 {
+    /* background: coral; */
+    border: 10px solid white;
+    background: transparent;
+}
+.mini4 {
+    /* background: cornflowerblue; */
+    border: 10px solid white;
+    background: transparent;
+}
+.mini5 {
+    /* background: crimson; */
+    background: transparent;
+    border: 10px solid white;
+}
+.mini6 {
+    /* background: cyan; */
+    background: transparent;
+    grid-column: 2 / span 2;
+    border: 10px solid white;
+}
